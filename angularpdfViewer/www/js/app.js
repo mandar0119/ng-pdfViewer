@@ -20,7 +20,6 @@ var app = angular.module('starter', ['ionic','pdf'])
 
 app.controller('TestCtrl', [ '$scope','pdfDelegate', function($scope, pdf, pdfDelegate) {
     console.log("TestCtrl");
-    $scope.relativity = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/149125/relativity.pdf';
     $scope.material = 'http://n2.transparent.sg:3000/assets/documents/50912073534.pdf';
     $scope.pdfUrl = $scope.material;
 }]);
